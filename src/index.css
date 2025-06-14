@@ -11,9 +11,15 @@
 }
 
 @font-face {
-  font-family: road-radio;
+  font-family: road-radio; /* rename to road-radio-thin */
   src: url(assets/fonts/RoadRadio-Thin.ttf);
 }
+
+@font-face {
+  font-family: road-radio-bold;
+  src: url(assets/fonts/RoadRadio-Bold.ttf);
+}
+
 
 :root {
   --background-color: #f0f0f0;

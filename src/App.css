@@ -32,3 +32,34 @@ section.hero {
     max-width: 800px;
     margin: 3vh auto;
 }
+
+.scrolling-belt-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    background-color: #282828; /* move to global --secondary-background-color*/
+    padding: 15px;
+}
+
+.scrolling-belt {
+    display: inline-flex;
+    white-space: nowrap;
+    animation: scroll-left 10s linear infinite;
+}
+
+.scrolling-belt span {
+    display: inline-block;
+    padding-right: 2rem;
+    font-size: 3.5rem;   /* move to global */
+    color: white;  /* move to global --primary-text-color or secondary , dont know*/
+    font-family: road-radio-bold;
+}
+
+@keyframes scroll-left {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
