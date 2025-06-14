@@ -10,6 +10,11 @@
   src: url(assets/fonts/TuskerGrotesk-3700Bold.ttf);
 }
 
+@font-face {
+  font-family: road-radio;
+  src: url(assets/fonts/RoadRadio-Thin.ttf);
+}
+
 :root {
   --background-color: #f0f0f0;
 
@@ -23,7 +28,3 @@ body {
   box-sizing: border-box;
   background-color: var(--background-color);
 }
-
-/* road radio -  font for small text under "ESSENCE OF CHAMPAGNE" */
-/* frent regular - font for logo */
-/* tusker grotesk - font for big text "ESSENCE OF CHAMPAGNE" */

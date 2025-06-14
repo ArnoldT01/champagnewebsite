@@ -26,3 +26,9 @@ section.hero {
         font-size: 11rem;
     }
 }
+
+.hero-p {
+    font-family: road-radio;
+    max-width: 800px;
+    margin: 3vh auto;
+}
