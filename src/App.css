@@ -31,4 +31,27 @@ section.hero {
     font-family: road-radio-thin;
     max-width: 800px;
     margin: 3vh auto;
+    font-weight: 600;
+    margin-bottom: 4vh;
+    line-height: 1.3rem;
+}
+
+.products-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    margin-top: 4vh;
+    margin-bottom: 5vh;
+}
+
+@media screen and (min-width: 768px) {
+    .products-container {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .products-container {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
 }

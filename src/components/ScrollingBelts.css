@@ -40,7 +40,7 @@
     white-space: nowrap;
     width: 300%;
     animation: scroll-left 10s linear infinite;
-    font-size: 3.5rem;
+    font-size: 3.7rem;
     font-family: road-radio-bold;
     color: var(--tertiary-text-color);
 }
@@ -79,7 +79,7 @@
     }
 
     .belt-content {
-        font-size: 4.5rem;
+        font-size: 4.7rem;
     }
 }
 
@@ -101,7 +101,7 @@
 
 @media screen and (min-width: 1440px) {
     .belt-content {
-        font-size: 5.5rem;
+        font-size: 5.7rem;
     }
 }
 
