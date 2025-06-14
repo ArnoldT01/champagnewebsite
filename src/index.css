@@ -11,7 +11,7 @@
 }
 
 @font-face {
-  font-family: road-radio; /* rename to road-radio-thin */
+  font-family: road-radio-thin;
   src: url(assets/fonts/RoadRadio-Thin.ttf);
 }
 
@@ -27,6 +27,7 @@
 
   --primary-text-color: #000000;
   --secondary-text-color: #747474;
+  --tertiary-text-color: #ffffff;
 }
 
 body {

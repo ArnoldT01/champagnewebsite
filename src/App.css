@@ -28,7 +28,7 @@ section.hero {
 }
 
 .hero-p {
-    font-family: road-radio;
+    font-family: road-radio-thin;
     max-width: 800px;
     margin: 3vh auto;
 }
@@ -50,8 +50,8 @@ section.hero {
 .scrolling-belt span {
     display: inline-block;
     padding-right: 2rem;
-    font-size: 3.5rem;   /* move to global */
-    color: white;  /* move to global --primary-text-color or secondary , dont know*/
+    font-size: 3.5rem;
+    color: var(--tertiary-text-color);
     font-family: road-radio-bold;
 }
 
