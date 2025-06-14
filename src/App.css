@@ -37,7 +37,7 @@ section.hero {
     position: relative;
     width: 100%;
     overflow: hidden;
-    background-color: #282828; /* move to global --secondary-background-color*/
+    background-color: var(--secondary-background-color);
     padding: 15px;
 }
 

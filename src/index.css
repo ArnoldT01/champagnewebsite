@@ -22,7 +22,8 @@
 
 
 :root {
-  --background-color: #f0f0f0;
+  --primary-background-color: #f0f0f0;
+  --secondary-background-color: #282828;
 
   --primary-text-color: #000000;
   --secondary-text-color: #747474;
@@ -32,5 +33,5 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: var(--background-color);
+  background-color: var(--primary-background-color);
 }
