@@ -45,7 +45,6 @@ section.hero {
     grid-template-columns: 1fr;
     justify-items: center;
     margin-top: 4vh;
-    margin-bottom: 5vh;
 }
 
 @media screen and (min-width: 768px) {

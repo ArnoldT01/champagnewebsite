@@ -42,6 +42,48 @@ const App = () => {
 
         <SpecialOfferSection/>
 
+        <section className='products-container'>
+          <ProductCard product={{
+            image_path: '/wine-bottle.png',
+            name: 'Champagne Vintage 2009',
+            price: '$6,890' }}/>
+
+          <ProductCard product={{
+            image_path: '/wine-bottle.png',
+            name: 'Champagne Vintage 2009',
+            price: '$6,890' }}/>
+
+          <ProductCard product={{
+            image_path: '/wine-bottle.png',
+            name: 'Champagne Vintage 2009',
+            price: '$6,890' }}/>
+
+          <ProductCard product={{
+            image_path: '/wine-bottle.png',
+            name: 'Champagne Vintage 2009',
+            price: '$6,890' }}/>
+
+          <ProductCard product={{
+            image_path: '/wine-bottle.png',
+            name: 'Champagne Vintage 2009',
+            price: '$6,890' }}/>
+
+          <ProductCard product={{
+            image_path: '/wine-bottle.png',
+            name: 'Champagne Vintage 2009',
+            price: '$6,890' }}/>
+
+          <ProductCard product={{
+            image_path: '/wine-bottle.png',
+            name: 'Champagne Vintage 2009',
+            price: '$6,890' }}/>
+
+          <ProductCard product={{
+            image_path: '/wine-bottle.png',
+            name: 'Champagne Vintage 2009',
+            price: '$6,890' }}/>
+        </section>
+
       </main>
     </>
   )
