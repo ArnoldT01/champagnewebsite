@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300&display=swap');
+
+@font-face {
+  font-family: french-regular;
+  src: url(assets/fonts/French-Regular.otf);
+}
+
+:root {
+  --background-color: #f0f0f0;
+
+  --primary-text-color: #000000;
+  --secondary-text-color: #747474;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: var(--background-color);
+}
+
+/* road radio -  font for small text under "ESSENCE OF CHAMPAGNE" */
+/* frent regular - font for logo */
+/* tusker grotesk - font for big text "ESSENCE OF CHAMPAGNE" */
