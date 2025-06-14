@@ -5,6 +5,11 @@
   src: url(assets/fonts/French-Regular.otf);
 }
 
+@font-face {
+  font-family: tuskgrotesk;
+  src: url(assets/fonts/TuskerGrotesk-3700Bold.ttf);
+}
+
 :root {
   --background-color: #f0f0f0;
 
