@@ -1,21 +1,39 @@
 .product-card-container {
-    width: 240px;
-    height: 370px;
     font-family: road-radio-thin;
-    font-size: .7rem;
+    font-size: 0.7rem;
     font-weight: 600;
+    text-align: center;
 }
 
-.image-container {
-    width: 100%;
+/* Small (default) */
+.product-card-container.small {
+    width: 240px;
+    height: 370px;
+}
+
+.product-card-container.small .image-container {
     height: 310px;
-    background-color: var(--secondary-background-color);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+}
+
+/* Large version */
+.product-card-container.large {
+    width: 45vw;
+    height: 90vh;
+}
+
+.product-card-container.large .image-container {
+    height: 81vh;
 }
 
 .product-image {
     width: 100%;
     height: auto;
+}
+
+.image-container {
+    width: 100%;
+    background-color: var(--secondary-background-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

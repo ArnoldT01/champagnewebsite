@@ -2,38 +2,42 @@ section.hero {
     text-align: center;
 }
 
-.hero-text {
+.heading-text {
     font-family: tuskgrotesk;
     font-size: 4.5rem;
     margin-top: 0;
     margin-bottom: 0;
+    text-transform: uppercase;
 }
 
 @media screen and (min-width: 768px) {
-    .hero-text {
+    .heading-text {
         font-size: 7rem;
     }
 }
 
 @media screen and (min-width: 1024px) {
-    .hero-text {
+    .heading-text {
         font-size: 9rem;
     }
 }
 
 @media screen and (min-width: 1440px) {
-    .hero-text {
+    .heading-text {
         font-size: 11rem;
     }
 }
 
-.hero-p {
+.content {
     font-family: road-radio-thin;
+    font-weight: 600;
+    line-height: 1.3rem;
+}
+
+.hero-p {
     max-width: 800px;
     margin: 3vh auto;
-    font-weight: 600;
     margin-bottom: 4vh;
-    line-height: 1.3rem;
 }
 
 .products-container {

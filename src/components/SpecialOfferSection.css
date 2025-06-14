@@ -1,0 +1,36 @@
+.special-offer {
+    text-align: left;
+}
+
+.special-offer .product-container {
+    display: grid;
+    justify-items: center;
+    margin-top: 2vh;
+}
+
+.special-offer button {
+    background-color: var(--primary-text-color);
+    color: var(--tertiary-text-color);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 8px 25px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+}
+
+@media screen and (min-width: 768px) {
+    .special-offer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+    }
+
+    .special-offer > div:first-child {
+        order: 2;
+    }
+
+    .special-offer > .product-container {
+        order: 1;
+    }
+}
