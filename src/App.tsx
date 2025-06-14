@@ -1,5 +1,6 @@
 import './App.css'
 import Navbar from './components/Navbar';
+import ScrollingBelts from './components/ScrollingBelts';
 
 function App() {
   return (
@@ -11,21 +12,8 @@ function App() {
 
           <p className='hero-p'>Lorem Ipsum epitomizes champagne craftsmanship with excellence in vineyard practices, blending the finest grapes for complexity and balance. It's sensory journey features ripe fruits, toasted nuts, and a lingering finish, perfect for special occasions.</p>
 
-          <div className="scrolling-belt-container">
-            <div className="scrolling-belt belt1">
-              <div className="belt-content">
-                <span>Lorem Ipsum's · Lorem Ipsum's · Lorem Ipsum's · Lorem Ipsum's · Lorem Ipsum's · Lorem Ipsum's · Lorem Ipsum's · Lorem Ipsum's · Lorem Ipsum's · Lorem Ipsum's · Lorem Ipsum's · Lorem Ipsum's · Lorem Ipsum's · Lorem Ipsum's · Lorem Ipsum's · </span>
-                <span>Lorem Ipsum's · Lorem Ipsum's · Lorem Ipsum's · Lorem Ipsum's · Lorem Ipsum's · Lorem Ipsum's · Lorem Ipsum's · Lorem Ipsum's · Lorem Ipsum's · Lorem Ipsum's · Lorem Ipsum's · Lorem Ipsum's · Lorem Ipsum's · Lorem Ipsum's · Lorem Ipsum's · </span>
-              </div>
-            </div>
-
-            <div className="scrolling-belt belt2">
-              <div className="belt-content">
-                <span>Lorem Ipsum's · Lorem Ipsum's · Lorem Ipsum's · Lorem Ipsum's · Lorem Ipsum's · Lorem Ipsum's · Lorem Ipsum's · Lorem Ipsum's · Lorem Ipsum's · Lorem Ipsum's · Lorem Ipsum's · Lorem Ipsum's · Lorem Ipsum's · Lorem Ipsum's · Lorem Ipsum's · </span>
-                <span>Lorem Ipsum's · Lorem Ipsum's · Lorem Ipsum's · Lorem Ipsum's · Lorem Ipsum's · Lorem Ipsum's · Lorem Ipsum's · Lorem Ipsum's · Lorem Ipsum's · Lorem Ipsum's · Lorem Ipsum's · Lorem Ipsum's · Lorem Ipsum's · Lorem Ipsum's · Lorem Ipsum's · </span>
-              </div>
-            </div>
-          </div>
+          {/*  */}
+          <ScrollingBelts/>
 
         </section>
       </main>
