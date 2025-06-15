@@ -4,12 +4,11 @@
   height: 60vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
   overflow: hidden;
 }
 
-.scrolling-belt {
+.parallel-scrolling-belt {
   width: 100%;
   height: 6rem;
   overflow: hidden;
@@ -19,28 +18,23 @@
   z-index: 1;
 }
 
-.belt-top {
-  margin-bottom: 6rem;
-}
-
 .belt-bottom {
-  margin-top: 6rem;
   z-index: 3;
 }
 
-.belt-content {
+.parallel-belt-content {
   display: inline-flex;
   white-space: nowrap;
-  animation: scroll-left 30s linear infinite;
+  animation: scroll-left 60s linear infinite;
   font-size: 3rem;
   font-family: road-radio-bold;
 }
 
-.belt-top .belt-content {
-  animation: scroll-right 30s linear infinite;
+.belt-top .parallel-belt-content {
+  animation: scroll-right 60s linear infinite;
 }
 
-.belt-content span {
+.parallel-belt-content span {
   display: inline-block;
   padding-right: 2rem;
   color: var(--primary-text-color);

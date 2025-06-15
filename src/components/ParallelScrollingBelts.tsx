@@ -3,8 +3,8 @@ import './ParallelScrollingBelts.css';
 const ParallelScrollingBelts = () => {
   return (
     <div className="centered-bottle-belts">
-      <div className="scrolling-belt belt-top">
-        <div className="belt-content">
+      <div className="parallel-scrolling-belt belt-top">
+        <div className="parallel-belt-content">
           <span>Elevating Every Celebration with Timeless Classics</span>
           <span>Elevating Every Celebration with Timeless Classics</span>
         </div>
@@ -14,8 +14,8 @@ const ParallelScrollingBelts = () => {
         <img src="/wine-bottle.png" alt="Champagne Bottle" />
       </div>
 
-      <div className="scrolling-belt belt-bottom">
-        <div className="belt-content">
+      <div className="parallel-scrolling-belt belt-bottom">
+        <div className="parallel-belt-content">
           <span>Elevating Every Celebration with Timeless Classics</span>
           <span>Elevating Every Celebration with Timeless Classics</span>
         </div>

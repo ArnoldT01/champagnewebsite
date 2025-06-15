@@ -24,8 +24,8 @@
 .belt1 {
     transform: translate(-50%, -50%) rotate(-18deg);
     background-color: var(--secondary-background-color);
-    border-top: 2px solid var(--tertiary-text-color);
-    border-bottom: 2px solid var(--tertiary-text-color);
+    border-top: 2px solid var(--primary-background-color);
+    border-bottom: 2px solid var(--primary-background-color);
     z-index: 2;
 }
 
@@ -42,7 +42,7 @@
     animation: scroll-left 10s linear infinite;
     font-size: 3.7rem;
     font-family: road-radio-bold;
-    color: var(--tertiary-text-color);
+    color: var(--primary-background-color);
 }
 
 @media screen and (min-width: 425px) {
