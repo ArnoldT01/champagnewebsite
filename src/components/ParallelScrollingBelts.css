@@ -36,6 +36,10 @@
   font-family: road-radio-bold;
 }
 
+.belt-top .belt-content {
+  animation: scroll-right 30s linear infinite;
+}
+
 .belt-content span {
   display: inline-block;
   padding-right: 2rem;
@@ -97,5 +101,14 @@
   }
   100% {
     transform: translateX(-50%);
+  }
+}
+
+@keyframes scroll-right {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0%);
   }
 }
