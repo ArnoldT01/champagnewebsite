@@ -1,5 +1,6 @@
 import './App.css'
 import Navbar from './components/Navbar';
+import ParallelScrollingBelts from './components/ParallelScrollingBelts';
 import ProductCard from './components/ProductCard';
 import ScrollingBelts from './components/ScrollingBelts';
 import SpecialOfferSection from './components/SpecialOfferSection';
@@ -83,6 +84,8 @@ const App = () => {
             name: 'Champagne Vintage 2009',
             price: '$6,890' }}/>
         </section>
+
+        <ParallelScrollingBelts/>
 
       </main>
     </>
