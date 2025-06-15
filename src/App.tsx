@@ -92,6 +92,28 @@ const App = () => {
           <button>Learn More</button>
         </section>
 
+        <section className='limited-editions'>
+          <h1 className='heading-text'>Limited Editions</h1>
+          <div className='products-container'>
+            <ProductCard product={{
+              image_path: '/bottle1.png',
+              name: 'Champagne Vintage 2009',
+              price: '$6,890' }}/>
+            <ProductCard product={{
+              image_path: '/bottle1.png',
+              name: 'Champagne Vintage 2009',
+              price: '$6,890' }}/>
+            <ProductCard product={{
+              image_path: '/bottle1.png',
+              name: 'Champagne Vintage 2009',
+              price: '$6,890' }}/>
+            <ProductCard product={{
+              image_path: '/bottle1.png',
+              name: 'Champagne Vintage 2009',
+              price: '$6,890' }}/>
+          </div>
+        </section>
+
       </main>
     </>
   )

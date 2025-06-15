@@ -86,3 +86,11 @@ section.hero {
         margin-top: 2vh;
     }
 }
+
+.limited-editions {
+    text-align: center;
+}
+
+.limited-editions .heading-text {
+    font-size: 6rem;
+}
