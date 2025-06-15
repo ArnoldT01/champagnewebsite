@@ -23,11 +23,11 @@
 }
 
 .product-card-container.large .image-container {
-    height: 81vh;
+    height: 100%;
 }
 
 .product-image {
-    width: 100%;
+    width: 85%;
     height: auto;
 }
 

@@ -18,7 +18,7 @@ const SpecialOfferSection = () => {
       <div className='product-container'>
         <ProductCard
           product={{
-            image_path: '/wine-bottle.png',
+            image_path: '/bottle1.png',
             name: 'Champagne Vintage 2009',
             price: '$6,890'
           }}
@@ -30,3 +30,5 @@ const SpecialOfferSection = () => {
 };
 
 export default SpecialOfferSection;
+
+// take in the product that comes in here from the call site of this component

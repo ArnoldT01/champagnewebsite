@@ -45,22 +45,10 @@
 .center-bottle {
   position: absolute;
   top: 50%;
-  left: -10%;
+  left: 10%;
   transform: translateY(-50%);
   z-index: 2;
   pointer-events: none;
-}
-
-@media screen and (min-width: 375px) {
-  .center-bottle {
-    left: 5%;
-  }
-}
-
-@media screen and (min-width: 375px) {
-  .center-bottle {
-    left: 8%;
-  }
 }
 
 @media screen and (min-width: 500px) {

@@ -21,22 +21,22 @@ const App = () => {
 
         <section className='products-container'>
           <ProductCard product={{
-            image_path: '/wine-bottle.png',
+            image_path: '/bottle1.png',
             name: 'Champagne Vintage 2009',
             price: '$6,890' }}/>
 
           <ProductCard product={{
-            image_path: '/wine-bottle.png',
+            image_path: '/bottle1.png',
             name: 'Champagne Vintage 2009',
             price: '$6,890' }}/>
 
           <ProductCard product={{
-            image_path: '/wine-bottle.png',
+            image_path: '/bottle1.png',
             name: 'Champagne Vintage 2009',
             price: '$6,890' }}/>
 
           <ProductCard product={{
-            image_path: '/wine-bottle.png',
+            image_path: '/bottle1.png',
             name: 'Champagne Vintage 2009',
             price: '$6,890' }}/>
         </section>
@@ -45,47 +45,52 @@ const App = () => {
 
         <section className='products-container'>
           <ProductCard product={{
-            image_path: '/wine-bottle.png',
+            image_path: '/bottle1.png',
             name: 'Champagne Vintage 2009',
             price: '$6,890' }}/>
 
           <ProductCard product={{
-            image_path: '/wine-bottle.png',
+            image_path: '/bottle1.png',
             name: 'Champagne Vintage 2009',
             price: '$6,890' }}/>
 
           <ProductCard product={{
-            image_path: '/wine-bottle.png',
+            image_path: '/bottle1.png',
             name: 'Champagne Vintage 2009',
             price: '$6,890' }}/>
 
           <ProductCard product={{
-            image_path: '/wine-bottle.png',
+            image_path: '/bottle1.png',
             name: 'Champagne Vintage 2009',
             price: '$6,890' }}/>
 
           <ProductCard product={{
-            image_path: '/wine-bottle.png',
+            image_path: '/bottle1.png',
             name: 'Champagne Vintage 2009',
             price: '$6,890' }}/>
 
           <ProductCard product={{
-            image_path: '/wine-bottle.png',
+            image_path: '/bottle1.png',
             name: 'Champagne Vintage 2009',
             price: '$6,890' }}/>
 
           <ProductCard product={{
-            image_path: '/wine-bottle.png',
+            image_path: '/bottle1.png',
             name: 'Champagne Vintage 2009',
             price: '$6,890' }}/>
 
           <ProductCard product={{
-            image_path: '/wine-bottle.png',
+            image_path: '/bottle1.png',
             name: 'Champagne Vintage 2009',
             price: '$6,890' }}/>
         </section>
 
         <ParallelScrollingBelts/>
+
+        <section className='discover'>
+          <p className='content'>Discover An Exclusive Offer On Lorem Ipsum Champagne, Crafted With Unparalleled Expertise And Renowned For Its Exquisite Taste</p>
+          <button>Learn More</button>
+        </section>
 
       </main>
     </>

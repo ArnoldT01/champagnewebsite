@@ -11,7 +11,7 @@ const ParallelScrollingBelts = () => {
       </div>
 
       <div className="center-bottle">
-        <img src="/wine-bottle.png" alt="Champagne Bottle" />
+        <img src="/bottle1.png" alt="Champagne Bottle" />
       </div>
 
       <div className="parallel-scrolling-belt belt-bottom">
@@ -25,3 +25,5 @@ const ParallelScrollingBelts = () => {
 };
 
 export default ParallelScrollingBelts;
+
+// take in the path of the image and alt in the calling site of this component

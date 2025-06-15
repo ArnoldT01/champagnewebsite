@@ -58,3 +58,31 @@ section.hero {
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 }
+
+.discover .content {
+    max-width: 350px;
+}
+
+.discover button {
+    background-color: var(--primary-text-color);
+    color: var(--tertiary-text-color);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 8px 25px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    height: 32px;
+}
+
+@media screen and (min-width: 768px) {
+    .discover {
+        display: flex;
+        justify-content: space-between;
+        margin-top: -14vh;
+    }
+
+    .discover button  {
+        margin-top: 2vh;
+    }
+}
