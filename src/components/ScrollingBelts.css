@@ -103,6 +103,14 @@
     .belt-content {
         font-size: 5.7rem;
     }
+
+    .belt1 {
+        transform: translate(-50%, -50%) rotate(-5deg);
+    }
+
+    .belt2 {
+        transform: translate(-50%, -50%) rotate(5deg);
+    }
 }
 
 @media screen and (min-width: 2560px) {
