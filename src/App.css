@@ -59,6 +59,13 @@ section.hero {
     }
 }
 
+@media screen and (min-width: 1440px) {
+    .products-container {
+        max-width: 80%;
+        margin: 4vh auto 0 auto;
+    }
+}
+
 .discover .content {
     max-width: 350px;
 }
@@ -95,3 +102,6 @@ section.hero {
 .limited-editions .heading-text {
     font-size: 6rem;
 }
+
+/*  */
+
