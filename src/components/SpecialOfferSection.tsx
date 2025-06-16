@@ -30,5 +30,3 @@ const SpecialOfferSection = () => {
 };
 
 export default SpecialOfferSection;
-
-// take in the product that comes in here from the call site of this component

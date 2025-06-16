@@ -25,5 +25,3 @@ const ParallelScrollingBelts = () => {
 };
 
 export default ParallelScrollingBelts;
-
-// take in the path of the image and alt in the calling site of this component
