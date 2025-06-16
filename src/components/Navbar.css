@@ -11,7 +11,7 @@
 
 @media screen and (min-width: 1440px) {
     .navbar {
-        margin: 0 5%;
+        padding: 1rem 5%;
     }
 }
 
