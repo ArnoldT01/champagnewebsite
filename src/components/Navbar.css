@@ -9,6 +9,12 @@
     background-color: var(--primary-background-color);
 }
 
+@media screen and (min-width: 1440px) {
+    .navbar {
+        margin: 0 5%;
+    }
+}
+
 .logo {
     font-size: 1.8rem;
     font-weight: 500;
