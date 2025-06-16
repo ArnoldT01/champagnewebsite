@@ -11,12 +11,10 @@
 }
 
 .footer-heading-text {
-    font-family: tuskgrotesk;
+    font-family: bebasneue;
     color: var(--tertiary-text-color);
     text-transform: uppercase;
-    font-size: 7rem;
-    width: 100%;
-    display: block;
+    font-size: 5.5rem;
     text-align: center;
     margin-top: 0;
     padding-top: 0;
@@ -26,25 +24,32 @@
 
 @media screen and (min-width: 425px) {
     .footer-heading-text {
-        font-size: 9rem;
+        font-size: 7.5rem;
     }
 }
 
 @media screen and (min-width: 768px) {
     .footer-heading-text {
-        font-size: 15rem;
+        font-size: 13.5rem;
     }
 }
 
 @media screen and (min-width: 1024px) {
     .footer-heading-text {
-        font-size: 20rem;
+        font-size: 17.5rem;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .footer-heading-text {
+        font-size: 25rem;
     }
 }
 
 .middle {
     display: grid;
     align-items: center;
+    margin-left: 5%;
 }
 
 .middle .first {
@@ -101,7 +106,7 @@
 @media screen and (min-width: 425px) {
     .middle .second {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
         justify-items: center;
     }
 }
@@ -116,11 +121,7 @@
     .middle {
         display: grid;
         grid-template-columns: 1fr 1fr;
-    }
-
-    .middle .second {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        margin-top: -10vh;
     }
 }
 

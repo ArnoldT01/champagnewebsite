@@ -20,6 +20,11 @@
   src: url(assets/fonts/RoadRadio-Bold.ttf);
 }
 
+@font-face {
+  font-family: bebasneue;
+  src: url(assets/fonts/BebasNeue-Regular.ttf);
+}
+
 :root {
   --primary-background-color: #f0f0f0;
   --secondary-background-color: #282828;

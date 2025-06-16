@@ -7,7 +7,7 @@ const SpecialOfferSection = () => {
 
   return (
     <section className='special-offer'>
-      <div className='first'>
+      <div className='special-offer-first-div'>
         <h1 className='heading-text'>Special Offer</h1>
         <p className='content'>
           Experience Lorem Ipsum at an Exclusive Price, Indulge In The Timeless Elegance And Exquisite Flavours Of Our Champagne, Perfect For Celebrating Life's Moments.
