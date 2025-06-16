@@ -2,6 +2,10 @@
     text-align: left;
 }
 
+.first {
+    margin-left: 5%;
+}
+
 .special-offer .product-container {
     display: grid;
     justify-items: center;
@@ -19,13 +23,23 @@
     font-weight: 300;
 }
 
+@media screen and (min-width: 1440px) {
+    .special-offer {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+
+    .product-container {
+        margin-right: 3vw;
+    }
+}
+
 @media screen and (min-width: 768px) {
     .special-offer {
         display: grid;
         grid-template-columns: 1fr 1fr;
         align-items: center;
     }
-
     .special-offer > div:first-child {
         order: 2;
     }
