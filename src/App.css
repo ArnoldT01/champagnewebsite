@@ -66,6 +66,10 @@ section.hero {
     }
 }
 
+.discover {
+    margin-left: 5%;
+}
+
 .discover .content {
     max-width: 350px;
 }
@@ -87,10 +91,19 @@ section.hero {
         display: flex;
         justify-content: space-between;
         margin-top: -14vh;
+        margin-left: 1%;
+        margin-right: 1%;
     }
 
     .discover button  {
         margin-top: 2vh;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .discover {
+        max-width: 80%;
+        margin: -14vh auto 0 auto;
     }
 }
 
@@ -102,6 +115,3 @@ section.hero {
 .limited-editions .heading-text {
     font-size: 6rem;
 }
-
-/*  */
-
