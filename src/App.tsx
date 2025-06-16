@@ -1,9 +1,10 @@
-import './App.css'
 import Navbar from './components/Navbar';
-import ParallelScrollingBelts from './components/ParallelScrollingBelts';
 import ProductCard from './components/ProductCard';
 import ScrollingBelts from './components/ScrollingBelts';
 import SpecialOfferSection from './components/SpecialOfferSection';
+import ParallelScrollingBelts from './components/ParallelScrollingBelts';
+import Footer from './components/Footer';
+import './App.css'
 
 const App = () => {
   return (
@@ -113,6 +114,8 @@ const App = () => {
               price: '$6,890' }}/>
           </div>
         </section>
+
+        <Footer/>
 
       </main>
     </>

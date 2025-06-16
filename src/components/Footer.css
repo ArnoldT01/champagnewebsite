@@ -1,0 +1,131 @@
+.footer-container {
+    background-color: var(--primary-text-color);
+    color: var(--tertiary-text-color);
+    font-family: road-radio-bold;
+    padding-bottom: 2vh;
+}
+
+.footer-container a {
+    text-decoration: none;
+    color: var(--secondary-text-color);
+}
+
+.footer-heading-text {
+    font-family: tuskgrotesk;
+    color: var(--tertiary-text-color);
+    text-transform: uppercase;
+    font-size: 7rem;
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+@media screen and (min-width: 425px) {
+    .footer-heading-text {
+        font-size: 9rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .footer-heading-text {
+        font-size: 15rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .footer-heading-text {
+        font-size: 20rem;
+    }
+}
+
+.middle {
+    display: grid;
+    align-items: center;
+}
+
+.middle .first {
+    max-width: 400px;
+}
+
+.footer-container .footer-heading {
+    font-size: 1.06rem;
+}
+
+.email-input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid var(--secondary-text-color);
+    color: var(--tertiary-text-color);
+    padding: 2px 0;
+    max-width: 50%;
+}
+
+.subscribe-btn {
+    color: var(--primary-text-color);
+    font-size: .7rem;
+    padding: 6px 18px;
+    margin-left: 5vw;
+    border: none;
+}
+
+.socials {
+    width: 51%;
+    display: flex;
+    justify-content: space-between;
+    margin: 2vh 0;
+}
+
+.socials .icon {
+    height: 25px;
+    width: auto;
+    color: var(--tertiary-text-color);
+}
+
+.second a {
+    display: block;
+    margin-bottom: 1vh;
+}
+
+.footer-heading,
+.information,
+.shipping,
+.contact {
+    margin-top: 5vh;
+}
+
+@media screen and (min-width: 425px) {
+    .middle .second {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .information,
+    .shipping,
+    .contact {
+        margin-top: -3vh;
+    }
+
+    .middle {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .middle .second {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+.copyright {
+    color: var(--secondary-text-color);
+    text-align: center;
+    margin-top: 4vh;
+}
