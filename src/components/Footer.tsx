@@ -11,10 +11,10 @@ const Footer = () => {
                     <input type="email" placeholder='EMAIL' className='email-input'/>
                     <button className='subscribe-btn'>Subscribe</button>
                     <div className="socials">
-                        <img src="/envelope-regular.svg" className='icon' alt="envelope icon" />
-                        <img src="/instagram-brands.svg" className='icon' alt="instagram icon" />
-                        <img src="/whatsapp-brands.svg" className='icon' alt="whatsapp icon" />
-                        <img src="/dribbble-brands.svg" className='icon' alt="dribbble icon" />
+                        <img src="./envelope-regular.svg" className='icon' alt="envelope icon" />
+                        <img src="./instagram-brands.svg" className='icon' alt="instagram icon" />
+                        <img src="./whatsapp-brands.svg" className='icon' alt="whatsapp icon" />
+                        <img src="./dribbble-brands.svg" className='icon' alt="dribbble icon" />
                     </div>
                 </div>
 

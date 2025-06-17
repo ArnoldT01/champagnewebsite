@@ -11,7 +11,7 @@ const ParallelScrollingBelts = () => {
       </div>
 
       <div className="center-bottle">
-        <img src="/bottle1.png" alt="Champagne Bottle" />
+        <img src="./bottle1.png" alt="Champagne Bottle" />
       </div>
 
       <div className="parallel-scrolling-belt belt-bottom">

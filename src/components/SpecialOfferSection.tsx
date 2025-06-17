@@ -18,7 +18,7 @@ const SpecialOfferSection = () => {
       <div className='product-container'>
         <ProductCard
           product={{
-            image_path: '/bottle1.png',
+            image_path: './bottle1.png',
             name: 'Champagne Vintage 2009',
             price: '$6,890'
           }}
